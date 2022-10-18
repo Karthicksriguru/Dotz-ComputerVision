@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace computervision
+namespace Computervisionkk
 {
     class Program
     {
-        static string l_subscriptionKey = "";
-        static string l_endpoint = "";
-        
-        private const string my_image = "";
+        static string l_subscriptionKey = "11c034b23cf247e68d2c963b5fa4878d";
+        static string l_endpoint = "https://kkcomputervision96.cognitiveservices.azure.com/";
+
+        private const string my_image = "https://dotz900storageaccount.blob.core.windows.net/kkdata/Karthi.jpg";
         static void Main(string[] args)
         {
             Analyze().GetAwaiter().GetResult();
